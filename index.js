@@ -7,6 +7,6 @@ app.listen(80, () => {
 })
 
 app.get("/",  (req, res) => {
-    res.sendFile(res.sendFile(__dirname + '/index.html'));
+    res.sendFile(__dirname + '/index.html');
     res.status(200);
 })
