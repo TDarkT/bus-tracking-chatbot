@@ -1,0 +1,22 @@
+{
+  "name": "messengerchatbot",
+  "version": "1.0.0",
+  "description": "Chatbot to tracking bus",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Busbot"
+  },
+  "keywords": [
+    "chatbot"
+  ],
+  "author": "Minh Long",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1"
+  }
+}
